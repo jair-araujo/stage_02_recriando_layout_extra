@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 65.2%;
+
+  --pink: #ee24ff;
+  --gray-light: ##eceff2;
+  --gray: #828282;
+  --blue: #3f3d56;
+  --white: #ffffff;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  display: grid;
+  background: url(./assets/wave.svg) no-repeat bottom / 100%;
+}
+
+main {
+  margin: 4rem auto;
+}
+
+.container {
+  display: flex;
+  width: 62.6rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5rem;
+}
+.container img {
+  width: 30rem;
+  margin-bottom: 1.6rem;
+}
+.container h1 {
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  text-align: center;
+  color: var(--blue);
+  margin-bottom: 1.6rem;
+}
+.container h1 strong {
+  font-weight: 700;
+  color: var(--pink);
+}
+
+.container p {
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: var(--gray);
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+.container p:last-child {
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+.container p strong {
+  color: var(--blue);
+}
+.container p .flutuar {
+  color: var(--gray);
+}
+
+hr {
+  width: 39.1rem;
+  margin: 0 auto;
+  border-color: var(--gray-light);
+  opacity: 0.4;
+}
+
+footer {
+  margin-bottom: 10rem;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 4.2rem;
+  justify-content: center;
+  margin-top: 1.6rem;
+  margin-bottom: 4rem;
+}
+footer ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--blue);
+  line-height: 147.68%;
+}
